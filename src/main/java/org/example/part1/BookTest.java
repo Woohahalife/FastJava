@@ -1,6 +1,6 @@
-package org.example;
+package org.example.part1;
 
-import java.util.Arrays;
+import org.example.part1.Book;
 
 public class BookTest {
     public static void main(String[] args) {
@@ -13,15 +13,7 @@ public class BookTest {
         b.publisher = "패스트캠퍼스";
         b.page = 300;
         b.isbn = "1199110";
+        System.out.println(b.title);
 
     }
-}
-
-class Book {
-    public String title;
-    public int price;
-    public String author;
-    public String publisher;
-    public int page;
-    public String isbn;
 }
