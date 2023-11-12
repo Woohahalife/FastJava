@@ -68,15 +68,15 @@ public class MovieDTO {
         this.level = level;
     }
 
-    @Override
-    public String toString() {
-        return "MovieDTO {" +
-                "title='" + title + '\'' +
-                ", day='" + day + '\'' +
-                ", major='" + major + '\'' +
-                ", part='" + part + '\'' +
-                ", time=" + time +
-                ", level=" + level +
-                '}';
-    }
+//    @Override
+//    public String toString() {
+//        return "MovieDTO {" +
+//                "title='" + title + '\'' +
+//                ", day='" + day + '\'' +
+//                ", major='" + major + '\'' +
+//                ", part='" + part + '\'' +
+//                ", time=" + time +
+//                ", level=" + level +
+//                '}';
+//    }
 }
