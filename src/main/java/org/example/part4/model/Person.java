@@ -22,6 +22,9 @@ public class Person {
 
     @Override
     public String toString() {
-        return String.format("name : %s, age : %s", this.name, this.age);
+        return "Person{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                '}';
     }
 }
