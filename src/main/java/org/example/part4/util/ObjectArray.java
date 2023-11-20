@@ -1,7 +1,5 @@
 package org.example.part4.util;
 
-import org.example.part4.model.Book;
-
 import java.util.Arrays;
 
 public class ObjectArray {
